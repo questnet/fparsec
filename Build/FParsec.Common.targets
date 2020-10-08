@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(FParsecNuGet)' == 'true'">
-    <SignAssembly Condition="'$(TargetFramework)' == 'net45'">true</SignAssembly>
+    <SignAssembly Condition="'$(TargetFramework)' == 'net45'">false</SignAssembly>
   </PropertyGroup>
 
   <PropertyGroup>
